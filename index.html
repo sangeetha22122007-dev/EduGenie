@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduGenie - AI Learning Assistant</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🎓 EduGenie</div>
+
+        <p>Google Gemini Powered Learning Assistant</p>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <h1>Learn Smarter with EduGenie</h1>
+
+            <p>
+                Ask questions, generate quizzes, summarize text,
+                and create personalized learning paths.
+            </p>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>🤖 AI Learning Assistant</h2>
+
+            <textarea
+                id="inputText"
+                placeholder="Enter your question or topic here..."
+            ></textarea>
+
+
+            <div class="buttons">
+
+                <button onclick="askQuestion()">
+                    💬 Ask Question
+                </button>
+
+                <button onclick="generateQuiz()">
+                    📝 Generate Quiz
+                </button>
+
+                <button onclick="summarizeText()">
+                    📄 Summarize
+                </button>
+
+                <button onclick="learningPath()">
+                    🛣️ Learning Path
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="result-card">
+
+            <h2>📚 EduGenie Response</h2>
+
+            <div id="loading">
+                Waiting for your request...
+            </div>
+
+            <div id="result"></div>
+
+        </section>
+
+
+        <section class="features">
+
+            <div class="feature">
+                <h3>💡 Smart Answers</h3>
+                <p>Get simple and useful explanations.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📝 AI Quiz</h3>
+                <p>Generate quizzes from any topic.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📄 Summarizer</h3>
+                <p>Convert long text into key points.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🎯 Learning Path</h3>
+                <p>Create a personalized study plan.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>EduGenie © 2026 | Powered by Google Gemini</p>
+    </footer>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
